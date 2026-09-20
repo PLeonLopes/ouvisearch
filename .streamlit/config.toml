@@ -1,0 +1,7 @@
+# Usa polling em vez do observador de arquivos padrão (watchdog), evitando
+# tracebacks inofensivos de hot-reload em alguns ambientes.
+[server]
+fileWatcherType = "poll"
+
+[browser]
+gatherUsageStats = false
