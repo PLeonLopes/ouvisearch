@@ -122,7 +122,8 @@ ouvisearch/
 ├── assets/
 │   ├── UI-ouvisearch.png              # Screenshot do app
 │   ├── heatmap_similaridade.png       # Gerado pela Entrega 2
-│   └── chunks_2d.png                  # Gerado pela Entrega 3
+│   ├── chunks_2d.png                  # Gerado pela Entrega 3
+│   └── requisitos-ouvidoria.pdf       # Requisitos originais do desafio
 ├── .streamlit/
 │   └── config.toml                    # Configurações do Streamlit
 └── README.md
