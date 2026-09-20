@@ -1,0 +1,14 @@
+# Instala o PyTorch a partir do índice CPU-only oficial - evita baixar os
+# pacotes de CUDA (vários GB) que o app não precisa, tanto localmente quanto
+# no build do Streamlit Community Cloud.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+sentence-transformers>=2.3.0
+langchain-text-splitters>=0.2.0
